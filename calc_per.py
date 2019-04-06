@@ -3,6 +3,8 @@ record = 0
 
 number = 0
 
+# improve efficientcy, only run loop if combinations are not in the number
+
 def calc_per(num,steps=0):
     if len(str(num)) != 1:
         digits = [int(i) for i in str(num)]
